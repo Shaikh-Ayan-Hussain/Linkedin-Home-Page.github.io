@@ -5,3 +5,190 @@
     box-sizing: border-box;
     font-family:'Poppins',sans-serif;
 }
+body{
+    background-color: rgb(235, 235, 235);  
+}
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap:  0rem 1rem;
+    align-items: center;
+    padding: 0px 0.3rem;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+nav .wrapper .left,
+nav .wrapper .right{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+nav .wrapper .left .logo{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 255, 0.884);
+    position: relative;
+    top: 4px;
+
+}
+nav .wrapper .left{
+    padding-left: 3rem;
+    display: flex;
+    gap:0.7rem;
+    flex-wrap: wrap;
+    position: relative;
+    left: 3.5%;
+}
+nav .wrapper .left .logo i{
+    color: rgba(0, 0, 255, 0.884);
+    font-size: 2.5rem;
+}
+nav .wrapper .left .input{
+    width: 350px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    background-color: rgb(218, 232, 235);
+    border-radius: 0.5rem;
+}
+nav .wrapper .left .input input[type='search']{
+    width: 22rem;
+    border:none;    
+    background: transparent;
+}
+nav .wrapper .left .input input[type='search']::placeholder{
+    font-size: 0.8rem;
+    color:rgb(54, 51, 51);
+    /* font-weight: 100; */
+}
+nav .wrapper .left .input i{
+    color:gray;
+    font-size: 1.2rem;
+}
+nav  .wrapper .right .home,
+nav  .wrapper .right .jobs,
+nav  .wrapper .right .network, 
+nav  .wrapper .right .message,
+nav  .wrapper .right .noti,
+nav  .wrapper .right .me,
+nav  .wrapper .right .dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0px 4px;
+}
+nav  .wrapper .right .home,
+nav  .wrapper .right .jobs,
+nav  .wrapper .right .network, 
+nav  .wrapper .right .message,
+nav  .wrapper .right .noti,
+nav  .wrapper .right .me{
+    color: gray;
+}
+nav  .wrapper .right .home i,
+nav  .wrapper .right .jobs i ,
+nav  .wrapper .right .network i , 
+nav  .wrapper .right .message i ,
+nav  .wrapper .right .noti i{
+    font-size: 1.5rem;
+}
+ nav .wrapper .right .me .down,
+ nav .wrapper .right .dots .down
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+ }  
+ nav .wrapper .right .me .down i{
+    color: gray;
+ }
+ nav .wrapper .right .me .down i:hover{
+    color: black;
+ }
+nav  .wrapper .right .jobs i:hover ,
+nav  .wrapper .right .network i:hover , 
+nav  .wrapper .right .message i:hover ,
+nav  .wrapper .right .noti i:hover,
+nav  .wrapper .right .me:hover,
+nav  .wrapper .right .dots i:hover{
+    color: black;
+}
+h6:hover{
+    color: black;
+}
+nav  .wrapper .right .home ,h6 i{
+    color: black;
+}
+nav .wrapper .right .me i:first-child{
+    font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+}
+nav .wrapper .right .me{
+    border-right: 1px solid rgba(0, 0, 0, 0.24);
+    padding: 0px 13px;
+}
+nav .wrapper .right .dots i{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;  
+   color: gray;
+   font-size: 22px;
+}
+nav .wrapper .right .dots .down{
+    position: relative;
+    color: gray;
+     top: 8px;
+
+}
+.anchor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+nav .wrapper .right .premium{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    position: relative;
+    top: -9px;  
+}
+nav .wrapper .right .premium:hover{
+    color: black;
+}
+.fa-square{
+    position: relative;
+    top: 6px;
+    font-size: 30px;
+    background: linear-gradient(35deg, rgba(255,206,19,1) 0%, rgba(255,0,0,1) 100%);
+    color: transparent;
+    -webkit-background-clip:text ;
+}
+
+
+
+
+
+
