@@ -239,7 +239,7 @@ nav .wrapper .right .premium:hover {
     /* border: 1px solid white; */
     background: #fff;
     top: 15%;
-    left: 5.5%;
+    left: 7%;
     border: 0.3px solid rgba(128, 128, 128, 0.596);
     overflow: hidden;
 }
@@ -278,27 +278,19 @@ nav .wrapper .right .premium:hover {
     font-size: 12px;
 }
 
-.main-section {
-    display: flex;
-    flex-direction: column-reverse;
-    position: absolute;
-    top: 15%;
-    border: 2px solid black;
-    width: 610px;
-    padding: 10px 0px;
-}
+
 
 .right-section {
     display: flex;
     /* flex-direction: column; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     position: fixed;
     width: 270px;
     height: 55vh;
     border-radius: 18px;
     border: 2px solid black;
     top: 16%;
-    right: 5%;
+    right: 6%;
 }
 .icon{
     display: block;
@@ -468,6 +460,37 @@ nav .wrapper .right .premium:hover {
     /* align-items: center; */
     position: relative;
     top:2%;
-    right:11%;
+    left:4%;
     font-weight: 350;
+}
+.main-section {
+    display: block;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 15%;
+    /* border: 2px solid black; */
+    width: 610px;
+    /* padding: 10px 0px; */
+    background: #fff;
+    height: 20vh;
+    width: 600px;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+.main-section .search{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+   
+}
+.main-section .search input:hover{
+    background-color: rgb(233, 233, 233);
+}
+.main-section input{
+    transition: 0.3s all ease;
+    padding: 0 1.2rem;
+    cursor: pointer;
+    border-radius: 5rem;
+    border: 1px solid gray;
+   width:100%;
 }
