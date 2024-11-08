@@ -592,118 +592,135 @@ nav .wrapper .right .premium:hover {
 .right-section .feed h4 {
     font-weight: 400;
 }
-.right-section .feeds{
-margin: 0 0.3rem;   
+
+.right-section .feeds {
+    margin: 0 0.3rem;
 }
-.right-section .feeds .one{
-display: flex;
+
+.right-section .feeds .one {
+    display: flex;
     gap: 0.9rem;
 }
-.right-section .feeds .two{
+
+.right-section .feeds .two {
     color: gray;
     font-size: 0.67rem;
     margin: -1.5rem 3.5rem;
 
 }
-.feeds  a{
+
+.feeds a {
     text-decoration: none;
     color: black;
 }
-.feeds h5{
-    margin: -0.1rem 0rem ;
+
+.feeds h5 {
+    margin: -0.1rem 0rem;
     font-size: 1rem;
     font-weight: 400;
 }
-.right-section .two button{
+
+.right-section .two button {
     margin-top: 8px;
-    border-radius:20px;
+    border-radius: 20px;
     border: 1px solid black;
-    color:gray;
+    color: gray;
     font-size: 15px;
     padding: 3px 16px;
 }
 
-.right-section .two button:hover{
+.right-section .two button:hover {
     border: 2px solid black;
-    color:black;
+    color: black;
 }
-.right-section .fa-plus{
+
+.right-section .fa-plus {
     font-size: 18px;
     margin-right: 10px;
 }
-.right-section .three{
-    margin:2.5rem 0.3rem;
+
+.right-section .three {
+    margin: 2.5rem 0.3rem;
     display: flex;
     gap: 0.9rem;
 }
-.right-section .four{
+
+.right-section .four {
     color: gray;
     font-size: 0.67rem;
     margin: -4rem 3.8rem;
 }
-.right-section .four button{
+
+.right-section .four button {
     margin-top: 8px;
-    border-radius:20px;
+    border-radius: 20px;
     border: 1px solid black;
-    color:gray;
+    color: gray;
     font-size: 15px;
     padding: 3px 16px;
 }
 
-.right-section .four button:hover{
+.right-section .four button:hover {
     border: 2px solid black;
-    color:black;
+    color: black;
 }
-.right-section .five{
+
+.right-section .five {
     margin: 5rem 0.3rem;
     display: flex;
     gap: 0.9rem;
 }
-.right-section .six{
+
+.right-section .six {
     color: gray;
-    font-size:  0.67rem;
+    font-size: 0.67rem;
     margin: -6.6rem 3.8rem;
 }
-.right-section .six button{
+
+.right-section .six button {
     margin-top: 8px;
-    border-radius:20px;
+    border-radius: 20px;
     border: 1px solid black;
-    color:gray;
+    color: gray;
     font-size: 15px;
     padding: 3px 16px;
 }
 
-.right-section .six button:hover{
+.right-section .six button:hover {
     border: 2px solid black;
-    color:black;
+    color: black;
 }
-.recommendation{
+
+.recommendation {
     display: flex;
     margin: 8rem 0rem;
     align-items: center;
     justify-content: center;
 }
 
-.recommendation a{
+.recommendation a {
     margin-right: 20px;
     color: rgba(0, 0, 0, 0.726);
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 500;
 }
-.recommendation a:hover{
+
+.recommendation a:hover {
     color: #000;
 }
-.msg-section{
+
+.msg-section {
     position: fixed;
-    top: 93%;    
+    top: 93%;
     left: 73%;
-    background-color:#fff; 
+    background-color: #fff;
     width: 340px;
     height: 50px;
     padding: 9px 0px;
 }
-.msg a{
+
+.msg a {
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -713,10 +730,12 @@ display: flex;
     font-weight: 400;
     gap: 10px;
 }
-.msg img{
+
+.msg img {
     margin-left: 10px;
-}   
-.icons{
+}
+
+.icons {
     z-index: 100;
     color: #525151;
     display: flex;
@@ -726,26 +745,29 @@ display: flex;
     top: 36%;
     left: 69%;
 }
-.fa-angle-up{
+
+.fa-angle-up {
     color: #525151;
 }
-.fa-pen-to-square{
+
+.fa-pen-to-square {
     color: #525151;
     margin-left: 13px;
 }
- .hiring{
+
+.hiring {
     width: 270px;
     height: auto;
     background: #fff;
     overflow: hidden;
-    position:fixed;
-    top:82%;
+    position: fixed;
+    top: 82%;
     left: 75%;
     border-radius: 10px;
-    
+
 }
 
-.app{
+.app {
     /* width: 600; */
     border-radius: 10px;
     padding: 12px 0px;
@@ -753,25 +775,28 @@ display: flex;
     height: auto;
     background: #fff;
     border: 1px solid rgba(128, 128, 128, 0.411);
-    position:fixed;
+    position: fixed;
     top: 123%;
     /* bottom: 40%; */
     left: 74.5%;
 }
-.app a{
+
+.app a {
     text-decoration: none;
     padding: 5px 7px;
-    color: gray; 
-    font-weight: 400;   
+    color: gray;
+    font-weight: 400;
 }
-.app span{
+
+.app span {
     border-radius: 5px;
     padding: 2px 2px;
     color: brown;
-     background-color: palegoldenrod;
-    margin-right: 5px; 
+    background-color: palegoldenrod;
+    margin-right: 5px;
 }
-.footer{
+
+.footer {
     /* margin: 0px  px; */
     position: fixed;
     left: 75%;
@@ -779,7 +804,8 @@ display: flex;
     /* border: 1px solid black; */
     width: 20%;
 }
-.foot{
+
+.foot {
     position: fixed;
     text-decoration: none;
     /* gap: 12px; */
@@ -787,53 +813,59 @@ display: flex;
     color: gray;
     font-size: 0.7rem;
 }
-.foot:hover{
+
+.foot:hover {
     text-decoration: underline;
     color: #0a66c2;
 }
-.footer h6{
+
+.footer h6 {
     font-size: 0.8rem;
     margin-top: 10px;
     margin-left: 10px;
     font-weight: 300;
     color: #525151;
 }
-.linkedin{
+
+.linkedin {
     color: rgba(0, 0, 255, 0.884);
     font-weight: 600;
     font-size: 0.9rem;
 }
-.fa-linkedin{
+
+.fa-linkedin {
     color: rgba(0, 0, 255, 0.884);
-    font-size:1rem;
-}
-.creatingpost{
-   width: 610px;
-   top: 42%;
-   display: flex;
-   margin-top: 10px;
-   position: absolute;
-   height:fit-content ;
-   flex-direction: column;
-   /* background-color: rgb(240, 240, 240); */
-   /* border: 2px solid black; */
-   justify-content: center;
-   align-items: center;
-   /* overflow: hidden;  */
+    font-size: 1rem;
 }
 
-.post-body{
-border: 1px solid rgba(128, 128, 128, 0.37);
+.creatingpost {
+    width: 610px;
+    top: 42%;
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    height: fit-content;
+    flex-direction: column-reverse;
+    /* background-color: rgb(240, 240, 240); */
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden;  */
+}
+
+.post-body {
+    border: 1px solid rgba(128, 128, 128, 0.37);
     /* margin-top: 0px; */
     border-radius: 9px;
     background-color: #fff;
     padding: 0.5rem;
     max-height: 50%;
-   max-width: 95%;
-   overflow: hidden;
-   margin-bottom: 10px;
+    max-width: 95%;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
-.user-info{
+
+.user-info {
     position: relative;
     display: flex;
     width: 100%;
@@ -841,7 +873,8 @@ border: 1px solid rgba(128, 128, 128, 0.37);
     /* align-items: stretch; */
     justify-content: space-between;
 }
-h2{
+
+h2 {
     position: relative;
     display: inline-block;
     top: -29px;
@@ -849,43 +882,51 @@ h2{
     font-size: 1.2rem;
     left: 5%;
 }
-.user-pro-pic{
+
+.user-pro-pic {
     position: relative;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-.date-time{
+
+.date-time {
     position: relative;
     margin-left: 3.8rem;
     top: -32px;
-   
+
 }
-.date-time h6{
+
+.date-time h6 {
     font-weight: 300;
 }
-.date-time small{
+
+.date-time small {
     font-weight: 300;
     color: gray;
     margin-top: -10px;
 }
-.fa-earth{
+
+.fa-earth {
     margin-left: 4px;
 }
-.des{
+
+.des {
     position: relative;
     /* padding: 0.5rem; */
-    top:-25px ;
+    top: -25px;
     font-weight: 300;
 }
-.upload-image{
+
+.upload-image {
 
     top: -20px;
     position: relative;
     width: 110%;
-    right:7%;
+    right: 7%;
 }
-.likes-comments{
+
+.likes-comments {
     position: relative;
     top: -25px;
     font-weight: 300;
@@ -895,73 +936,86 @@ h2{
     justify-content: space-between;
     padding: 0.5rem;
 }
-.comment-share{
+
+.comment-share {
     font-size: 12px;
-    
+
 }
-.count-likes{
+
+.count-likes {
     margin: 2px;
 }
 
-.count-likes:hover{
+.count-likes:hover {
     color: #0a66c2;
     text-decoration: underline;
 }
-.preview{
+
+.preview {
     display: flex;
     align-items: center;
-font-size: 13px;
+    font-size: 13px;
 }
+
 .preview .fa-thumbs-up {
     position: relative;
     border-radius: 50px;
-    background-color:#0a66c2;
-    color:white;
-   padding: 5%;
-}
-.fa-thumbs-up{
-    z-index: 211;
-}
-.fa-heart{
+    background-color: #0a66c2;
+    color: white;
     padding: 5%;
-     color:white;
-     margin-left: -7px;
+}
+
+.fa-thumbs-up {
+    z-index: 21;
+}
+
+.fa-heart {
+    padding: 5%;
+    color: white;
+    margin-left: -7px;
     position: relative;
     border-radius: 50px;
     background-color: red;
 }
-.likes-comment-icons{
+
+.likes-comment-icons {
     position: relative;
     width: 100%;
     top: -19px;
     border-top: 1px solid gray;
     padding-top: 6px;
-    display:flex ;
+    display: flex;
     font-size: 18px;
     color: rgb(77, 76, 76);
     justify-content: space-evenly;
 }
-.likes-comment-icons > div{
+
+.likes-comment-icons>div {
     cursor: pointer;
 }
-.likes-comment-icons > div:nth-child(1):focus{
+
+.likes-comment-icons>div:nth-child(1):focus {
     color: #0a66c2;
 }
-.likes-comment-icons i{
+
+.likes-comment-icons i {
     font-size: 16px;
 }
-.follow{
+
+.follow {
     border: none;
     margin-right: 15px;
     font-size: 18px;
     color: #0a66c2;
     font-weight: 400;
 }
-.follow span{
+
+.follow span {
     /* margin-top: 5px; */
     font-size: 21px;
     font-weight: 500;
 }
-.follow:hover{
+
+.follow:hover {
     color: darkblue;
 }
