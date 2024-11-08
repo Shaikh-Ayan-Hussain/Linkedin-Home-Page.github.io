@@ -411,31 +411,6 @@ nav .wrapper .right .premium:hover {
     flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 768px) {
-    nav.wrapper.right.dots {
-        display: none;
-    }
-
-    nav.wrapper.right.dots.down {
-        display: none;
-    }
-
-    nav.wrapper.right.premium {
-        display: none;
-    }
-
-    nav.wrapper.right.me {
-        display: none;
-    }
-
-    nav.wrapper.right.anchor {
-        display: none;
-    }
-
-    nav.wrapper.right.connection {
-        display: none;
-    }
-}
 
 .saveditmes {
     display: flex;
